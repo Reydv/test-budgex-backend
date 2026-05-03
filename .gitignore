@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.http
+*.log
+
+# ini isinya secret key
+.env
+appsettings.json
