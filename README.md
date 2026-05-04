@@ -91,4 +91,10 @@ ini buat stop/hapus containernya, kalo aku biasanya pake portainer buat ngatur c
 docker compose down
 ```
 
+kalo ini buat hapus container + hapus volume 
+
+```bash
+docker compose down -v
+```
+
 Your data is safe, it is saved in the Docker volume and will still be there next time you run `docker compose up -d`.
