@@ -24,7 +24,7 @@ Isi file .env sama appsetting.json, valuenya harus sama
 kalo command cp gak bisa copy paste manual aja
 
 ```bash
-cp .env.example .env
+cp .envexample .env
 cp appsettings.json.example appsettings.json
 ```
 
