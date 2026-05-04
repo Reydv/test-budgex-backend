@@ -39,7 +39,7 @@ POSTGRES_DB=yourdb
 ```json
 {
   "ConnectionStrings": {
-    "Default": "Host=localhost;Port=5432;Database=yourdb;Username=youruser;Password=yourpassword"
+    "Default": "Host=localhost;Port=5433;Database=yourdb;Username=youruser;Password=yourpassword"
   }
 }
 ```
