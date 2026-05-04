@@ -35,6 +35,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
+// Nanti ini hapus di production phase
 app.MapGet("/test-db", async (IConfiguration config) =>
 {
     try
